@@ -141,7 +141,5 @@ Gunakan environment variable jika dibutuhkan untuk produksi.
 
 <div align="center">
 
-<b>APe UI</b> dibuat untuk developer yang ingin fokus ke <b>logic API</b>, bukan ribet bikin dokumentasi.<br>
-Kalau kamu suka project ini, jangan lupa ⭐ di GitHub 😉
 
 </div>
