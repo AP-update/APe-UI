@@ -2,36 +2,65 @@
   "AI": [
     {
       "name": "Chat AI",
-      "desc": "Tanya jawab dengan asisten pintar.",
-      "path": "/ai/Ai4Chat?text=",
+      "desc": "Tanya jawab dengan asisten AI",
+      "path": "/ai/Ai4Chat",
+      "method": "GET",
       "auth": false,
-      "status": "online"
+      "status": "online",
+      "params": [
+        { "name": "text", "required": true, "placeholder": "masukan text" },
+        { "name": "user", "required":false, "placeholder": "masukan user" }
+      ]
+    },
+    {
+      "name": "Chat AI",
+      "desc": "Tanya jawab dengan asisten AI",
+      "path": "/ai/Ai4Chat",
+      "method": "POST",
+      "auth": false,
+      "status": "online",
+      "params": [
+        { "name": "text", "required": true, "placeholder": "Masukan teks kamu" }
+      ],
+      "note": "Kirim data menggunakan body JSON"
     },
     {
       "name": "Lirik generator",
-      "desc": "Buat lirik lagu dengan cepat",
-      "path": "/ai/lirikgenerator?text=",
+      "desc": "Buat lirik lagu dengan AI",
+      "path": "/ai/lirikgenerator",
+      "method": "GET",
       "auth": false,
-      "status": "online"
+      "status": "online",
+      "params": [
+        { "name": "text", "required": true, "placeholder": "masukan text" }
+      ]
     }
-  ], 
+  ],
   "Maker": [
     {
       "name": "Brat Generator",
-      "desc": "Buat stiker teks gaya Brat secara instan.",
-      "path": "/maker/brat?text=",
+      "desc": "Buat stiker teks gaya brat secara instan.",
+      "path": "/maker/brat",
+      "method": "GET",
       "auth": true,
       "status": "online",
-      "note": "Gunakan teks pendek agar hasil maksimal."
+      "params": [
+        { "name": "text", "required": true, "placeholder": "Masukan teks kamu" }
+      ],
+      "note": "untuk demo , masukan apikey admin-key"
     }
   ],
   "Search": [
     {
       "name": "Cari lirik",
       "desc": "Cari lirik lagu secara cepat",
-      "path": "/search/lirik?q=",
+      "path": "/search/lirik",
+      "method": "GET",
       "auth": false,
-      "status": "online"
+      "status": "online",
+      "params": [
+        { "name": "q", "required": true, "placeholder": "Masukan teks kamu" }
+      ]
     }
   ]
 }
