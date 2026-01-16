@@ -1,10 +1,10 @@
 {
   "api_name": "API ape (demo)",
-  "api_type": "V1.0.0",
-  "description": "Dokumentasi API yang simpel dan mudah digunakan, cocok untuk belajar dan mengembangkan berbagai project",
+  "api_type": "V1.2.0",
+  "description": "Dokumentasi API yang simpel dan mudah digunakan, cocok untuk belajar.",
   "owner": "AP",
   "footer": "© 2026  APe UI Project",
-  "api_keys": ["septi-key-123", "admin-key"],
+  "api_keys": ["ape-key-123", "admin-key"],
   "use_profile": true,
   "owner_profile": "./logo.jpg" 
 }
