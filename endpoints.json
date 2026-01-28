@@ -1,7 +1,7 @@
 {
   "AI": [
     {
-      "name": "Chat AI",
+      "name": "Chat AI (GET)",
       "desc": "Tanya jawab dengan asisten AI",
       "path": "/ai/Ai4Chat",
       "method": "GET",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "name": "Chat AI",
+      "name": "Chat AI (POST)",
       "desc": "Tanya jawab dengan asisten AI",
       "path": "/ai/Ai4Chat",
       "method": "POST",
