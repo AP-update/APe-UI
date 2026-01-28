@@ -1,10 +1,51 @@
 {
   "api_name": "API ape (demo)",
-  "api_type": "V1.2.0",
+  "api_type": "V1.4.0",
   "description": "Dokumentasi API yang simpel dan mudah digunakan, cocok untuk belajar.",
   "owner": "AP",
-  "footer": "© 2026  APe UI Project",
+  "footer": "© 2026 APe UI Project",
   "api_keys": ["ape-key-123", "admin-key"],
   "use_profile": true,
-  "owner_profile": "./logo.jpg" 
+  "owner_profile": "./logo.jpg",
+  "changelog": [
+    {
+      "version": "1.4.0",
+      "date": "2026-01-24",
+      "notes": [
+        { "type": "Update", "text": "Menambah halaman Catatan perubahan" }
+      ]
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-01-21",
+      "notes": [
+        { "type": "security", "text": "Menambahkan rate limit 100 request/menit untuk mencegah spam" },
+        { "type": "security", "text": "Sistem blokir IP sementara jika melebihi batas request" }
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-01-16",
+      "notes": [
+        { "type": "add", "text": "Menambah metode POST pada endpoint" },
+        { "type": "update", "text": "Menambah label Wajib & Opsional pada parameter" }
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-01-14",
+      "notes": [
+        { "type": "add", "text": "Menambah contoh cara penggunaan API" },
+        { "type": "update", "text": "Menambah informasi status API dan waktu respon" }
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-01-10",
+      "notes": [
+        { "type": "add", "text": "Rilis perdana Base SC REST API" },
+        { "type": "update", "text": "Base script simpel dan mudah dipahami" }
+      ]
+    }
+  ]
 }
